@@ -1,0 +1,102 @@
+@charset "EUC-KR";
+
+body {
+	background-color: #95a5a6;
+}
+
+.header {
+	padding: 2px;
+	margin: 10px;
+	background-color: white;
+}
+
+.main {
+	margin: 10px;
+	background-color: white;
+}
+
+.footer {
+	padding: 20px;
+	margin: 10px;
+	background-color: white;
+	text-align: center;
+	color: #95a5a6;
+}
+
+.menus {
+	list-style:none;
+	text-align: right;
+}
+
+.menu {
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	background-color: #95a5a6;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.main {
+	text-align: center;
+}
+
+.center-menus {
+	color: white;
+	font-size: 25px;
+	list-style: none;
+}
+
+.center-menu {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	display: inline-block;
+	background-color: #95a5a6;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-right: 10px;
+	color: white;
+}
+
+.center-menu > a {
+	color: white;
+}
+
+.center-menu > a:hover {
+	color: yellow;
+}
+
+.aboutme {
+	margin: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: white;
+}
+
+.photo {
+	margin: 10px;
+	background-color: white;
+}
+
+.table-content {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	vertical-align: top;
+	line-height: 200%;
+}
+
+.today {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 70px;
+}
